@@ -1,16 +1,16 @@
 let x=20;
 for(let i=2;i<=x;i++)
 {
-let y=2;
-let isPrime=true;
-while(y**y<=i)
+let j=2;
+let prime=true
+while(j**2<=i)
 {
-if(i%y==0){
-isPrime=false;
+if(i%j==0){
+prime=false;
 break;
 }
-y++
+j++
 }
-if(isPrime==true)
+if(prime==true)
 console.log(i);
 }
